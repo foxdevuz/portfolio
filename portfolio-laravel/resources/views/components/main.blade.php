@@ -33,11 +33,12 @@
 
     <body>
 
-        <!-- ======= Header ======= -->
+        
+
         <header id="header">
             <div class="container">
 
-                <h1><a href="/">Emily Jones</a></h1>
+                <h1><a href="/">Abdullajonov Bobur</a></h1>
                 <!-- Uncomment below if you prefer to use an image logo -->
                 <!-- <a href="index.html" class="mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
                 <h2>I'm a <span>Web developer</span> from Uzbekistan</h2>
@@ -55,27 +56,31 @@
                 </nav><!-- .navbar -->
 
                 <div class="social-links">
-                    <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-                    <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-                    <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-                    <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                    <a href="https://twitter.com/foxdevuz" class="twitter"><i class="bi bi-twitter"></i></a>
+                    <a href="https://facebook.com/foxdevuz" class="facebook"><i class="bi bi-facebook"></i></a>
+                    <a href="https://instagram.com/abdullajonov.pro" class="instagram"><i class="bi bi-instagram"></i></a>
+                    <a href="https://t.me/foxdevuz" ><i class="bi bi-telegram"></i></a>
+                    <a href="https://github.com/foxdevuz" ><i class="bi bi-github"></i></a>
                 </div>
 
             </div>
-        </header><!-- End Header -->
-        {{ $slot }}
-      !-- Vendor JS Files -->
-      <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-      <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-      <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-      <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-      <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-      <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-      <script src="assets/vendor/php-email-form/validate.js"></script>
+        </header>
+        
+        {{ $slot  }}
 
-      <!-- Template Main JS File -->
-      <script src="assets/js/main.js"></script>
 
-  </body>
+        
+        <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+        <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+        <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+        <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+        <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+        <script src="assets/vendor/php-email-form/validate.js"></script>
+
+        <!-- Template Main JS File -->
+        <script src="assets/js/main.js"></script>
+
+    </body>
 
 </html>
