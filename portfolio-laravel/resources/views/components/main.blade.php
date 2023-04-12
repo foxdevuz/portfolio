@@ -5,14 +5,11 @@
         <meta charset="utf-8">
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-        <title>Personal Bootstrap Template</title>
+        <title>Abdullajonov's Portfolio</title>
         <meta content="" name="description">
         <meta content="" name="keywords">
 
-        <!-- Favicons -->
-        <link href="assets/img/favicon.png" rel="icon">
-        <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
+       
         <!-- Google Fonts -->
         <link
             href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
@@ -39,8 +36,6 @@
             <div class="container">
 
                 <h1><a href="/">Abdullajonov Bobur</a></h1>
-                <!-- Uncomment below if you prefer to use an image logo -->
-                <!-- <a href="index.html" class="mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
                 <h2>I'm a <span>Web developer</span> from Uzbekistan</h2>
 
                 <nav id="navbar" class="navbar">

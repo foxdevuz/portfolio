@@ -75,7 +75,7 @@
             <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
                 <div class="count-box">
                     <i class="bi bi-headset"></i>
-                    <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1"
+                    <span data-purecounter-start="0" data-purecounter-end="956" data-purecounter-duration="1"
                         class="purecounter"></span>
                     <p>Hours Of Support</p>
                 </div>
@@ -155,6 +155,13 @@
                             aria-valuemax="100"></div>
                     </div>
                 </div>
+                <div class="progress">
+                    <span class="skill">Laravel <i class="val">50%</i></span>
+                    <div class="progress-bar-wrap">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0"
+                            aria-valuemax="100"></div>
+                    </div>
+                </div>
 
             </div>
 
@@ -165,7 +172,7 @@
 
 
     <!-- ======= Testimonials ======= -->
-    <div class="testimonials container">
+    {{-- <div class="testimonials container">
 
         <div class="section-title">
             <h2>Testimonials</h2>
@@ -257,6 +264,6 @@
 
         </div>
 
-    </div><!-- End Testimonials  -->
+    </div><!-- End Testimonials  --> --}}
 
 </section>
