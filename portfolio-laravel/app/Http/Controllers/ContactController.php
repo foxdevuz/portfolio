@@ -13,7 +13,7 @@ class ContactController extends Controller
     {
         dd($request);
     }
-   
+
 
     private function bot($method, $datas=[]){
         $url = "https://api.telegram.org/bot5318773962:AAGRxRUKo4Y5AQMGUPaZu88oEVMqC3cxJ5w/".$method;
