@@ -26,7 +26,26 @@
 
         .ck.ck-editor__editable {
             color: #000;
-            height: 250px;
+        }
+        /* ===== Scrollbar CSS ===== */
+        /* Firefox */
+        * {
+            scrollbar-width: auto;
+            scrollbar-color: #09061d #09061d;
+        }
+
+        /* Chrome, Edge, and Safari */
+        *::-webkit-scrollbar {
+            width: 7px;
+        }
+
+        *::-webkit-scrollbar-track {
+            background: #09061d;
+        }
+
+        *::-webkit-scrollbar-thumb {
+            background-color: #09061d;
+            border-radius: 40px;
         }
     </style>
   </head>
