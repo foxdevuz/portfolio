@@ -46,7 +46,7 @@
             </div>
         </div>
 
-        <form action="forms/contact.php" method="POST" enctype="multipart/form-data" class="php-email-form mt-4">
+        <form action="/send-Mail" method="GET" class="php-email-form mt-4">
             @csrf
             <div class="row">
                 <div class="col-md-6 form-group">
@@ -64,11 +64,9 @@
             </div>
             <div class="my-3">
                 <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
+                <div class="error-message">Your Message has been sent. Thank You!</div>
             </div>
             <div class="text-center"><button type="submit">Send Message</button></div>
         </form>
-
     </div>
 </section>

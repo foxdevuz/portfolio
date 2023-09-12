@@ -2,12 +2,13 @@
 
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\DirectionController;
-use Illuminate\Http\Request;
+use App\Http\Controllers\MailController;
 use Illuminate\Support\Facades\Route;
 
 
 Route::get('login', [AdminController::class, 'dirLogin'])->name('admin.login');
 
+Route::any('/send-Mail', [MailController::class, 'index']);
 
 Route::get('/', [DirectionController::class, 'welcome'])->name('welcome');
 Route::get('/portfolio-details', function () {

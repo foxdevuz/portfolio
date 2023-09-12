@@ -1,4 +1,9 @@
 <x-main>
+    @if (session()->has('success'))
+    <script>
+        alert("{{ session('success') }}");
+    </script>
+    @endif
     <x-about/>
     <x-resume/>
     <x-services/>

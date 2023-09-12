@@ -10,21 +10,20 @@
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
                 <div class="icon-box">
                     <div class="icon"><i class="bx bxl-telegram"></i></div>
-                    <h4><a href="">Telegram Bot </a></h4>
-                    <p>I can make any telegram bot that you want</p>
+                    <h4><a href="">Telegram Bot Development</a></h4>
+                    <p>I can develop any Telegram bot that you need, from simple chat bots to complex AI-powered bots.</p>
                 </div>
             </div>
 
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
                 <div class="icon-box">
                     <div class="icon"><i class="bx bx-code-block"></i></div>
-                    <h4><a href="">Backend web development</a></h4>
-                    <p>I build backend sides of websites using PHP and MySQL</p>
+                    <h4><a href="">Backend Web Development</a></h4>
+                    <p>I build the backend sides of websites using PHP and MySQL. I can also help you with API development and integration.</p>
                 </div>
             </div>
 
 
         </div>
-
     </div>
 </section>
