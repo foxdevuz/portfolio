@@ -74,6 +74,11 @@ function display_help {
     echo "  ${GREEN}sail yarn ...${NC}        Run a Yarn command"
     echo "  ${GREEN}sail yarn run prod${NC}"
     echo
+    echo "${YELLOW}Bun Commands:${NC}"
+    echo "  ${GREEN}sail bun ...${NC}        Run a bun command"
+    echo "  ${GREEN}sail bunx${NC}           Run a bunx command"
+    echo "  ${GREEN}sail bun run prod${NC}"
+    echo
     echo "${YELLOW}Database Commands:${NC}"
     echo "  ${GREEN}sail mysql${NC}     Start a MySQL CLI session within the 'mysql' container"
     echo "  ${GREEN}sail mariadb${NC}   Start a MySQL CLI session within the 'mariadb' container"
@@ -432,6 +437,30 @@ elif [ "$1" == "yarn" ]; then
         sail_is_not_running
     fi
 
+# Proxy Bun commands to the "bun" binary on the application container...
+elif [ "$1" == "bun" ]; then
+    shift 1
+
+    if [ "$EXEC" == "yes" ]; then
+        ARGS+=(exec -u sail)
+        [ ! -t 0 ] && ARGS+=(-T)
+        ARGS+=("$APP_SERVICE" bun "$@")
+    else
+        sail_is_not_running
+    fi
+
+# Proxy Bun X commands to the "bunx" binary on the application container...
+elif [ "$1" == "bunx" ]; then
+    shift 1
+
+    if [ "$EXEC" == "yes" ]; then
+        ARGS+=(exec -u sail)
+        [ ! -t 0 ] && ARGS+=(-T)
+        ARGS+=("$APP_SERVICE" bunx "$@")
+    else
+        sail_is_not_running
+    fi
+
 # Initiate a MySQL CLI terminal session within the "mysql" container...
 elif [ "$1" == "mysql" ]; then
     shift 1
@@ -488,7 +517,7 @@ elif [ "$1" == "root-shell" ] || [ "$1" == "root-bash" ]; then
     shift 1
 
     if [ "$EXEC" == "yes" ]; then
-        ARGS+=(exec)
+        ARGS+=(exec -u root)
         [ ! -t 0 ] && ARGS+=(-T)
         ARGS+=("$APP_SERVICE" bash "$@")
     else
