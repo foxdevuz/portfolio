@@ -12,7 +12,7 @@
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
     <!-- Include jQuery 3.6.4 -->
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-/nq1W+mo23au4VmR2Qjqdck6sNGJ1pBRVoQd9CYGI8E=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
 
     <!-- Include counterUp script before main.js -->
     <script src="{{ asset('assets/vendor/purecounter/purecounter_vanilla.js') }}"></script>
