@@ -32,13 +32,18 @@
                     <h5>2021-2022</h5>
                     <p><em>IT School of Pop</em></p>
                 </div>
+                <div class="resume-item">
+                    <h4>IT Park University</h4>
+                    <h5>2023-Present</h5>
+                    <p><em>Software engineer student</em></p>
+                </div>
             </div>
             <div class="col-lg-6">
                 <h3 class="resume-title">Professional Experience</h3>
                 <div class="resume-item">
                     <h4>Freelancer</h4>
                     <h5>2022 - 2023</h5>
-                    <p><em>orena.uz bussines and tech news</em></p>
+                    <p><em>Orena.uz business and tech news</em></p>
                     <p>
                         <p>I made</p>
                         <ul>
@@ -53,11 +58,10 @@
                     <h5>2023 - Present</h5>
                     <p><em>Fazo Software</em></p>
                     <p>
-                        <p>I've been working here since 2023 and i'm making backend side of websites on this company</p>
+                        <p>I've been working here since 2023 and I'm making backend side of websites on this company</p>
                     </p>
                 </div>
             </div>
         </div>
-
     </div>
 </section>

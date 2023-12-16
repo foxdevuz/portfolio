@@ -10,7 +10,7 @@
 
         <div class="row">
             <div class="col-lg-4" data-aos="fade-right">
-                <img src="assets/img/me.jpg" class="img-fluid" alt="">
+                <img src="{{ asset('assets/img/me.jpg') }}" class="img-fluid" alt="">
             </div>
             <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
                 <h3>Web developer</h3>
@@ -49,7 +49,7 @@
 
     </div><!-- End About Me -->
 
-    
+
     <div class="counts container">
 
         <div class="row">

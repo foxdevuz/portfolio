@@ -11,7 +11,7 @@
                 <div class="icon-box">
                     <div class="icon"><i class="bx bxl-telegram"></i></div>
                     <h4><a href="">Telegram Bot Development</a></h4>
-                    <p>I can develop any Telegram bot that you need, from simple chat bots to complex AI-powered bots.</p>
+                    <p>I can develop any Telegram bot that you need, from simple chatbots to complex AI-powered bots.</p>
                 </div>
             </div>
 
