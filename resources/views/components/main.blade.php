@@ -11,8 +11,15 @@
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-    <!-- Include jQuery -->
-    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <!-- Include jQuery 3.6.4 -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-/nq1W+mo23au4VmR2Qjqdck6sNGJ1pBRVoQd9CYGI8E=" crossorigin="anonymous"></script>
+
+    <!-- Include counterUp script before main.js -->
+    <script src="{{ asset('assets/vendor/purecounter/purecounter_vanilla.js') }}"></script>
+
+    <!-- Include main.js -->
+    <script src="{{ asset('assets/js/main.js') }}"></script>
+
     <!-- Vendor CSS Files -->
     <link href="{{ asset('assets/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
