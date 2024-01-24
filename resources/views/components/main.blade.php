@@ -6,8 +6,8 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
     <title>Abdullajonov's Portfolio</title>
-    <meta content="" name="description">
-    <meta content="" name="keywords">
+    <meta content="Web Backend developer and Software Engineering Student" name="description">
+    <meta content="abdullajonov.uz, abdullajonov boburjon, abdullajonov, foxdevuz" name="keywords">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -54,6 +54,7 @@
             <a href="https://instagram.com/abdullajonov.pro" class="instagram"><i class="bi bi-instagram"></i></a>
             <a href="https://t.me/foxdevuz"><i class="bi bi-telegram"></i></a>
             <a href="https://github.com/foxdevuz"><i class="bi bi-github"></i></a>
+            <a href="https://www.linkedin.com/in/abdullajonov-bobur/"><i class="bi bi-linkedin"></i></a>
         </div>
     </div>
 </header>

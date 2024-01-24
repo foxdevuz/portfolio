@@ -11,12 +11,12 @@
                 <h3 class="resume-title">Sumary</h3>
                 <div class="resume-item pb-0">
                     <h4>Abdullajonov Bobur</h4>
-                    <p><em>A web developer who can build any website and telegram bots you want.</em></p>
+                    <p><em>A web developer who can build any website and telegram bots which you want.</em></p>
                     <p>
                         <ul>
                             <li><strong>Namangan, Uzbekistan</strong></li>
-                            <li><strong>+998 90 750 71 05</strong></li>
-                            <li><strong>foxdevuz@gmail.com</strong></li>
+                            <li><strong><a href="tel:+998 90 750 71 05">+998 90 750 71 05</a></strong></li>
+                            <li><strong>hello@abdullajonov.uz</strong></li>
                         </ul>
                     </p>
                 </div>
@@ -43,7 +43,7 @@
                 <div class="resume-item">
                     <h4>Freelancer</h4>
                     <h5>2022 - 2023</h5>
-                    <p><em>Orena.uz business and tech news</em></p>
+                    <p><em>orena.uz - business and technology news publication</em></p>
                     <p>
                         <p>I made</p>
                         <ul>

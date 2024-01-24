@@ -11,7 +11,7 @@
                 <div class="info-box">
                     <i class="bx bx-map"></i>
                     <h3>My Address</h3>
-                    <p>Pop district, Namangan, Uzbekistan</p>
+                    <p> <a href="https://maps.app.goo.gl/bymx19mrrqHtxqTJA" target="_blank">Namangan, Uzbekistan</a></p>
                 </div>
             </div>
 
@@ -25,6 +25,7 @@
                         <a href="https://instagram.com/abdullajonov.pro" class="instagram"><i class="bi bi-instagram"></i></a>
                         <a href="https://t.me/foxdevuz" ><i class="bi bi-telegram"></i></a>
                         <a href="https://github.com/foxdevuz" ><i class="bi bi-github"></i></a>
+                        <a href="https://www.linkedin.com/in/abdullajonov-bobur/"><i class="bi bi-linkedin"></i></a>
                     </div>
                 </div>
             </div>
@@ -32,15 +33,15 @@
             <div class="col-md-6 mt-4 d-flex align-items-stretch">
                 <div class="info-box">
                     <i class="bx bx-envelope"></i>
-                    <h3>Email Me</h3>
-                    <p>foxdevuz@gmail.com</p>
+                    <h3>Email</h3>
+                    <p><a href="mailto:hello@abdullajonov.uz" target="_blank">hello@abdullajonov.uz</a></p>
                 </div>
             </div>
             <div class="col-md-6 mt-4 d-flex align-items-stretch">
                 <div class="info-box">
                     <i class="bx bx-phone-call"></i>
                     <h3>Call Me</h3>
-                    <p>+998 90 750 71 05</p>
+                    <p> <a href="tel:+998 90 750 71 05">+998 90 750 71 05</a> </p>
                 </div>
             </div>
         </div>
