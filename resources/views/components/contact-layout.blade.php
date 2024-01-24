@@ -45,7 +45,7 @@
             </div>
         </div>
 
-        <form action="/send-Mail" method="GET" class="php-email-form mt-4">
+        <form action="/send-Mail" method="POST" class="php-email-form mt-4">
             @csrf
             <div class="row">
                 <div class="col-md-6 form-group">

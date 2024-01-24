@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('login', [AdminController::class, 'dirLogin'])->name('admin.login');
 
-Route::any('/send-Mail', [MailController::class, 'index']);
+Route::post('/send-Mail', [MailController::class, 'index']);
 
 Route::get('/', [DirectionController::class, 'welcome'])->name('welcome');
 Route::get('/portfolio-details', function () {
