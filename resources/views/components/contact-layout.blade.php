@@ -23,7 +23,7 @@
                         <a href="https://twitter.com/foxdevuz" class="twitter"><i class="bi bi-twitter"></i></a>
                         <a href="https://facebook.com/foxdevuz" class="facebook"><i class="bi bi-facebook"></i></a>
                         <a href="https://instagram.com/abdullajonov.pro" class="instagram"><i class="bi bi-instagram"></i></a>
-                        <a href="https://t.me/foxdevuz" ><i class="bi bi-telegram"></i></a>
+                        <a href="https://t.me/webfoxuz" ><i class="bi bi-telegram"></i></a>
                         <a href="https://github.com/foxdevuz" ><i class="bi bi-github"></i></a>
                         <a href="https://www.linkedin.com/in/abdullajonov-bobur/"><i class="bi bi-linkedin"></i></a>
                     </div>
